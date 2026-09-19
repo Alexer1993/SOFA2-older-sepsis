@@ -1,0 +1,13 @@
+SOFA2_PROJECT_ROOT=/absolute/path/to/SOFA2-older-sepsis
+
+MIMIC_DB_HOST=localhost
+MIMIC_DB_PORT=5432
+MIMIC_DB_NAME=mimiciv
+MIMIC_DB_USER=mimic_readonly
+MIMIC_DB_PASSWORD=change-me
+
+EICU_DB_HOST=localhost
+EICU_DB_PORT=5432
+EICU_DB_NAME=eicu
+EICU_DB_USER=eicu_readonly
+EICU_DB_PASSWORD=change-me
