@@ -1,0 +1,39 @@
+Package: sofa2elderlysepsis
+Type: Project
+Title: Reproducible Analyses for SOFA-2 in Older Patients With Sepsis
+Version: 1.0.0
+Authors@R: c(
+    person("Yun", "Tan", role = "aut"),
+    person("Minhui", "Dai", email = "4011842@csu.edu.cn", role = c("aut", "cre"))
+  )
+Description: Cohort construction, statistical analysis, external validation,
+    and figure-generation code for a retrospective MIMIC-IV and eICU-CRD study.
+License: file LICENSE.md
+Encoding: UTF-8
+Depends: R (>= 4.4.0)
+Imports:
+    broom,
+    cowplot,
+    DBI,
+    digest,
+    dplyr,
+    flextable,
+    ggplot2,
+    gridExtra,
+    lcmm,
+    lmtest,
+    mice,
+    missForest,
+    officer,
+    openxlsx,
+    patchwork,
+    readr,
+    readxl,
+    RPostgres,
+    sandwich,
+    scales,
+    stringr,
+    survival,
+    survminer,
+    tidyr,
+    yaml
