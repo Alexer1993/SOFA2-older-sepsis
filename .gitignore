@@ -1,0 +1,43 @@
+# Credentials and local configuration
+.Renviron
+.env
+config/.Renviron
+
+# R session and IDE files
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+renv/library/
+renv/staging/
+
+# Patient-level or intermediate data
+data/**
+!data/README.md
+eicu_external_data/
+*.rds
+*.RDS
+*.xlsx
+*.xls
+*.sav
+*.dta
+*.parquet
+
+# Generated outputs; retain only approved aggregate summaries
+outputs/**
+!outputs/README.md
+!outputs/patient_cluster_bootstrap_summary.csv
+!outputs/patient_cluster_cutoff_distribution.csv
+
+# Generated figures and documents
+*.png
+*.tif
+*.tiff
+*.pdf
+*.docx
+
+# Operating-system and editor files
+.DS_Store
+Thumbs.db
+*.tmp
+*.log
