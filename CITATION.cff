@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the associated manuscript and this software release."
+type: software
+title: "Code for Baseline SOFA 2 and Early SOFA 2 Trajectories Stratify Mortality Risk in Older Patients With Sepsis"
+version: 1.0.0
+date-released: 2026-09-27
+authors:
+  - family-names: Tan
+    given-names: Yun
+  - family-names: Dai
+    given-names: Minhui
+    email: 4011842@csu.edu.cn
+keywords:
+  - SOFA-2
+  - sepsis
+  - intensive care
+  - MIMIC-IV
+  - eICU-CRD
+  - reproducible research
+repository-code: "https://github.com/Alexer1993/SOFA2-older-sepsis"
